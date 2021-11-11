@@ -1,0 +1,5 @@
+[[package]]
+name = "pedersen-hash"
+version = "0.3.0"
+author = "collin4130"
+import_name = "pedersen-hash"
