@@ -1,8 +1,0 @@
-[project]
-name = "pedersen-hash"
-version = "0.3.0"
-description = "The pedersen-hash package"
-license = "MIT"
-
-[remote]
-author = "collin4130" # Add your Aleo Package Manager username, team's name, or organization's name.

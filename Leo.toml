@@ -14,4 +14,5 @@ proving_system = "groth16"
 [dependencies]
 # Define dependencies here in format:
 # name = { package = "package-name", author = "author", version = "version" }
-pedersen-hash = { package = "pedersen-hash", author = "collin4130", version = "0.3.0"}
+# Temporarily commenting it out and replacing with local implementation;
+# pedersen-hash = { package = "pedersen-hash", author = "collin4130", version = "0.3.0"}

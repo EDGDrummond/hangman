@@ -8,10 +8,11 @@ used_guesses: [char; 10] = ['_'; 10];
 guesses_left: u32 = 10;
 victory: bool = false;
 
+// Current guess (never to be const)
+guess: char = 'b';
+
 [constants]
 parameters: [group; 256] = [1group; 256];
-
-guess: char = 'b';
 // guess2: char = 'a';
 // guess3: char = 'c';
 
