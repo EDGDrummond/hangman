@@ -2,7 +2,7 @@ circuit PedersenHash {
     parameters: [group; 256],
 
     // Instantiates a Pedersen hash circuit
-    function new(parameters: [group; 256]) -> Self {
+    function new(const parameters: [group; 256]) -> Self {
         return Self { parameters: parameters };
     }
 
@@ -16,10 +16,3 @@ circuit PedersenHash {
         return digest;
     }
 }
-
-// The 'pedersen-hash' main function.
-function main(hash_input: [bool; 256]) -> group {
-    let pedersen = PedersenHash::new([1group; 256]);
-    return pedersen.hash(hash_input);
-}
-
